@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_show_all"
+        app:showAsAction="never"
+        android:title="@string/menu_show_all_text"/>
+    <item
+        android:id="@+id/menu_sort_computers"
+        app:showAsAction="never"
+        android:title="@string/menu_sort_computers_btn"/>
+    <item
+        android:id="@+id/menu_group_computers"
+        app:showAsAction="never"
+        android:title="@string/menu_group_computers_btn"/>
+    <item
+        android:id="@+id/menu_total_ram_capacity"
+        app:showAsAction="never"
+        android:title="@string/menu_total_ram_capacity_btn" />
+    <item
+        android:id="@+id/menu_avg_ram_capacity"
+        app:showAsAction="never"
+        android:title="@string/menu_avg_ram_capacity_btn" />
+    <item
+        android:id="@+id/menu_max_ram"
+        app:showAsAction="never"
+        android:title="@string/menu_max_ram_btn" />
+    <item
+        android:id="@+id/menu_ram_greater_than"
+        app:showAsAction="never"
+        android:title="@string/menu_ram_greater_than_btn"/>
+    <item
+        android:id="@+id/menu_ram_less_than_avg"
+        app:showAsAction="never"
+        android:title="@string/menu_ram_less_than_avg_btn"/>
+    <item
+        android:id="@+id/menu_ram_greater_than_limit"
+        app:showAsAction="never"
+        android:title="@string/menu_ram_greater_than_limit_btn"/>
+</menu>

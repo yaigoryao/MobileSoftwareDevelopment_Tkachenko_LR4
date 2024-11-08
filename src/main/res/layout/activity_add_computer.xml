@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main"
+        tools:context=".AddComputerActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+        <TextView
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/motherboard_man_spinner_label"
+            android:id="@+id/motherboard_man_tv_label" />
+        <Spinner
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/motherboard_man_spinner"
+            android:prompt="@string/motherboard_man_spinner_label" />
+        <TextView
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/videocard_man_spinner_label"
+            android:id="@+id/videocard_man_tv_label" />
+        <Spinner
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/videocard_man_spinner"
+            android:prompt="@string/videocard_man_spinner_label" />
+        <TextView
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ram_edittext_label"
+            android:id="@+id/ram_tv_label" />
+        <EditText
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ram_edittext_label"
+            android:id="@+id/ram_edittext"
+            android:inputType="numberDecimal" />
+        <TextView
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/manufacturing_date_calendar_label"
+            android:id="@+id/manufacturing_date_calendar_label" />
+        <CalendarView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/manufacture_date_calendar" />
+        <TextView
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/monitor_man_spinner_label"
+            android:id="@+id/monitor_man_spinner_label" />
+        <Spinner
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/monitor_man_spinner"
+            android:prompt="@string/monitor_man_spinner_label"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_margin="10dp"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:id="@+id/cancel_button"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/cancel_button_text"/>
+            <Button
+                android:layout_margin="10dp"
+                android:textSize="20sp"
+                android:id="@+id/add_computer_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/add_computer_button_text"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

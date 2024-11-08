@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">lr4</string>
+
+    <string name="add_computer_button_text">Добавить</string>
+    <string name="remove_computer_button_text">Удалить</string>
+    <string name="cancel_button_text">Отмена</string>
+
+    <string name="menu_sort_computers_btn">Сорт. по ОП</string>
+    <string name="menu_group_computers_btn">Групп. по произв. мат. плат. и видеокарт</string>
+    <string name="menu_total_ram_capacity_btn">Общ. ОП</string>
+    <string name="menu_avg_ram_capacity_btn">Ср. ОП</string>
+    <string name="menu_max_ram_btn">Макс. ОП</string>
+    <string name="menu_ram_greater_than_btn">ОП больше чем</string>
+    <string name="menu_ram_less_than_avg_btn">ОП меньше ср. ОП</string>
+    <string name="menu_ram_greater_than_limit_btn">ОП больше чем (одна запись)</string>
+
+    <string name="computer_id_tv_text">ID</string>
+    <string name="motherboard_man_tv_text">Производитель материнской платы</string>
+    <string name="videocard_man_tv_text">Производитель видеокарты</string>
+    <string name="ram_tv_text">ОП, Гб</string>
+    <string name="manufacture_date_tv_text">Дата производства</string>
+    <string name="monitor_man_tv_text">Производитель монитора</string>
+
+    <string name="manufacturer_man_group_name">Производитель</string>
+    <string name="videocard_man_group_name">Производитель</string>
+    <string name="total_ram">Всего ОП</string>
+    <string name="avg_ram">Средний размер ОП</string>
+
+    <string name="menu_show_all_text">Показать все</string>
+
+    <string name="motherboard_man_spinner_label">Производитель мат. карты</string>
+    <string name="videocard_man_spinner_label">Производитель видеокарты</string>
+    <string name="ram_edittext_label">Объем ОП</string>
+    <string name="manufacturing_date_calendar_label">Дата изготовления</string>
+    <string name="monitor_man_spinner_label">Производитель монитора</string>
+</resources>

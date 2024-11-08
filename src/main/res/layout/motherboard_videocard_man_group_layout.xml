@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main">
+
+    <TableRow>
+        <TextView
+            android:textSize="20sp"
+            android:id="@+id/motherboard_man_tv_label"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/manufacturer_man_group_name"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"/>
+        <TextView
+            android:textSize="20sp"
+            android:id="@+id/motherboard_man_tv"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:textSize="20sp"
+            android:id="@+id/videocard_man_tv_label"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/videocard_man_group_name"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"/>
+        <TextView
+            android:textSize="20sp"
+            android:id="@+id/videocard_man_tv"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:textSize="20sp"
+            android:id="@+id/total_group_ram_tv_label"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/total_ram"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"/>
+        <TextView
+            android:textSize="20sp"
+            android:id="@+id/total_group_ram_tv"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"/>
+    </TableRow>
+</TableLayout>
